@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["joe@devmynd.com", "cory@devmynd.com", "jc@devmynd.com", "me@tonycoconate.com", "michael@devmynd.com"]
   spec.description   = "Adds typed hstore backed fields to an ActiveRecord model."
   spec.summary       = "Adds typed hstore backed fields to an ActiveRecord model."
-  spec.homepage      = "http://github.com/madeintandem/hstore_accessor"
+  spec.homepage      = "http://github.com/devmynd/hstore_accessor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
