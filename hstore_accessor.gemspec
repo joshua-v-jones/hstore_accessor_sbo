@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["joe@devmynd.com", "cory@devmynd.com", "jc@devmynd.com", "me@tonycoconate.com", "michael@devmynd.com"]
   spec.description   = "Adds typed hstore backed fields to an ActiveRecord model."
   spec.summary       = "Adds typed hstore backed fields to an ActiveRecord model."
-  spec.homepage      = "http://github.com/devmynd/hstore_accessor"
+  spec.homepage      = "http://github.com/madeintandem/hstore_accessor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activerecord", ">= 4.0.0"
 
   spec.add_development_dependency "appraisal"
-  spec.add_development_dependency "bundler", "~> 1.7"
+  spec.add_development_dependency "bundler", "~> 2.2.27"
   spec.add_development_dependency "database_cleaner"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-doc"
